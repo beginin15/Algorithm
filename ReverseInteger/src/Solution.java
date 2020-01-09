@@ -1,23 +1,14 @@
 public class Solution {
     public int reverse(int x) {
-        int answer = 0;
-        String numberX = String.valueOf(x);
-        StringBuilder conversion = new StringBuilder(numberX.length());
-
-        if(x < 0){
-            conversion.append("-");
+        long numberX = (x >= 0) ? x : ((long)(x) * -1);
+        StringBuilder conversion = new StringBuilder(String.valueOf(numberX));
+        conversion.reverse();
+        long value = Long.parseLong(conversion.toString());
+        if(Integer.MIN_VALUE < value && value < Integer.MAX_VALUE) {
+            int intValue = (int) value;
+            return x > 0 ? intValue : intValue * -1;
         }
-
-        for(int index = numberX.length() - 1; index >= (x >= 0 ? 0 : 1); --index){
-            conversion.append(numberX.charAt(index));
-        }
-
-        try{
-            answer = Integer.parseInt(conversion.toString());
-        } catch (NumberFormatException e){
-            answer = 0;
-        }
-
-        return answer;
+        else
+            return 0;
     }
 }
