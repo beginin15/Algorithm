@@ -1,12 +1,8 @@
-### Reverse Integer
-
----
+# 7. Reverse Integer
 
 >  [문제 링크](https://leetcode.com/problems/reverse-integer/)
 
 ### Math.abs(x)에 대하여
-
----
 
 Math.abs(x) 메소드는 Integer.MIN_VALUE가 인자로 전달되면 그대로 Integer.MIN_VALUE를 반환
 
@@ -103,7 +99,6 @@ Math.abs(x) 메소드는 Integer.MIN_VALUE가 인자로 전달되면 그대로 I
 
   3. 그러므로 한 바이트의 범위는 -128 ~ 127이 되는 것
 
-  
 
 > 2의 보수로 음수를 표현했을 때
 
