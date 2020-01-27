@@ -107,9 +107,7 @@ Math.abs(x) 메소드는 Integer.MIN_VALUE가 인자로 전달되면 그대로 I
 
 > 2의 보수로 음수를 표현했을 때
 
-![twos_complement_wheel](../img/twos_complement_wheel.jpg?raw=true)
-
-
+<center><img src = "../img/twos_complement_wheel.jpg?raw=true"></center>
 
 > 참고
 >
