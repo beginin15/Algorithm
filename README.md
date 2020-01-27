@@ -4,12 +4,12 @@
 ---
 > Solved
 
-[완주하지 못한 선수](https://programmers.co.kr/learn/courses/30/lessons/42576)
+[완주하지 못한 선수](https://github.com/beginin15/Algorithm/tree/master/Marathon)
 
 ### LeetCode
 ---
 > Solved
 
-[7. Reverse Integer](https://leetcode.com/problems/reverse-integer/)
+[7. Reverse Integer](https://github.com/beginin15/Algorithm/tree/master/ReverseInteger)
 
-[202. Happy Number](https://leetcode.com/problems/happy-number/)
+[202. Happy Number](https://github.com/beginin15/Algorithm/tree/master/HappyNumber)
