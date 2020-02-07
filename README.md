@@ -6,6 +6,8 @@
 
 [완주하지 못한 선수](https://github.com/beginin15/Algorithm/tree/master/Marathon)
 
+[K번째수](https://github.com/beginin15/Algorithm/tree/master/KthNumber)
+
 ### LeetCode
 ---
 > Solved
