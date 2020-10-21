@@ -14,8 +14,4 @@ public class N136 {
 
         return hashSet.iterator().next();
     }
-
-    public static void main(String[] args) {
-        new N136().singleNumber(new int[] {4, 1, 2, 1, 2});
-    }
 }
