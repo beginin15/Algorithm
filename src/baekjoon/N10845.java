@@ -41,7 +41,7 @@ public class N10845 {
     }
 
     private static class MyQueue {
-        private static final int MAX = 100;
+        private static final int MAX = 2_000_000;
         private int[] data;
         private int size;
         private int head;
@@ -54,9 +54,6 @@ public class N10845 {
 
         void push(int x) {
             data[tail++] = x;
-            if (tail >= MAX) {
-                tail = 0;
-            }
             size++;
         }
 
@@ -64,12 +61,8 @@ public class N10845 {
             if (size == 0) {
                 return -1;
             }
-            int x = data[head++];
-            if (head >= MAX) {
-                head = 0;
-            }
             size--;
-            return x;
+            return data[head++];
         }
 
         int size() {
@@ -81,17 +74,17 @@ public class N10845 {
         }
 
         int front() {
-            if (size <= 0) {
+            if (size == 0) {
                 return -1;
             }
             return data[head];
         }
 
         int back() {
-            if (size <= 0) {
+            if (size == 0) {
                 return -1;
             }
-            return data[tail - 1 < 0 ? MAX - 1 : tail - 1];
+            return data[tail - 1];
         }
     }
 }
