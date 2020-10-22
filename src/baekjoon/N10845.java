@@ -1,6 +1,7 @@
 package baekjoon;
 
 import java.io.*;
+import java.util.LinkedList;
 import java.util.StringTokenizer;
 
 public class N10845 {
@@ -10,81 +11,45 @@ public class N10845 {
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
         int count = Integer.parseInt(br.readLine());
-        MyQueue queue = new MyQueue();
+        LinkedList<Integer> queue = new LinkedList<>();
 
         while (count-- > 0) {
             StringTokenizer st = new StringTokenizer(br.readLine());
             switch (st.nextToken()) {
-                case "push" :
-                    queue.push(Integer.parseInt(st.nextToken()));
+                case "push":
+                    queue.add(Integer.parseInt(st.nextToken()));
                     break;
-                case "pop" :
-                    bw.write(queue.pop() + "\n");
+                case "pop":
+                    if (queue.isEmpty()) {
+                        bw.write("-1\n");
+                    } else {
+                        bw.write(queue.removeFirst() + "\n");
+                    }
                     break;
-                case "size" :
+                case "size":
                     bw.write(queue.size() + "\n");
                     break;
-                case "empty" :
-                    bw.write(queue.empty() + "\n");
+                case "empty":
+                    bw.write((queue.isEmpty() ? 1 : 0) + "\n");
                     break;
-                case "front" :
-                    bw.write(queue.front() + "\n");
+                case "front":
+                    if (queue.isEmpty()) {
+                        bw.write("-1\n");
+                    } else {
+                        bw.write(queue.getFirst() + "\n");
+                    }
                     break;
-                case "back" :
-                    bw.write(queue.back() + "\n");
+                case "back":
+                    if (queue.isEmpty()) {
+                        bw.write("-1\n");
+                    } else {
+                        bw.write(queue.getLast() + "\n");
+                    }
                     break;
             }
         }
 
         bw.close();
         br.close();
-    }
-
-    private static class MyQueue {
-        private static final int MAX = 2_000_000;
-        private int[] data;
-        private int size;
-        private int head;
-        private int tail;
-
-        public MyQueue() {
-            this.data = new int[MAX];
-            this.head = this.tail = this.size = 0;
-        }
-
-        void push(int x) {
-            data[tail++] = x;
-            size++;
-        }
-
-        int pop() {
-            if (size == 0) {
-                return -1;
-            }
-            size--;
-            return data[head++];
-        }
-
-        int size() {
-            return size;
-        }
-
-        int empty() {
-            return size == 0 ? 1 : 0;
-        }
-
-        int front() {
-            if (size == 0) {
-                return -1;
-            }
-            return data[head];
-        }
-
-        int back() {
-            if (size == 0) {
-                return -1;
-            }
-            return data[tail - 1];
-        }
     }
 }
