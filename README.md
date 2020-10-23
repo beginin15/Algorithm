@@ -25,8 +25,21 @@
 <summary>Solved</summary>
 
 - [1991. Binary Tree](https://github.com/beginin15/Algorithm/issues/6)
-- [1406. 에디터](https://github.com/beginin15/Algorithm/issues/7)
 - [1158. 요세푸스](https://github.com/beginin15/Algorithm/issues/9)
 - [5397. 키로거](https://github.com/beginin15/Algorithm/issues/10)
+- [10828. 스택](https://github.com/beginin15/Algorithm/issues/11)
+- [10773. 제로](https://github.com/beginin15/Algorithm/issues/12)
+- [18258. 큐2](https://github.com/beginin15/Algorithm/issues/15)
+- [2164. 카드2](https://github.com/beginin15/Algorithm/issues/16)
+- [6198. 옥상 정원 꾸미기](https://github.com/beginin15/Algorithm/issues/17)
+
+</details>
+<details>
+<summary>Tried</summary>
+
+- [1406. 에디터](https://github.com/beginin15/Algorithm/issues/7)
+- [1874. 스택 수열](https://github.com/beginin15/Algorithm/issues/13)
+- [2493. 탑](https://github.com/beginin15/Algorithm/issues/18)
+
 
 </details>
