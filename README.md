@@ -31,7 +31,8 @@
 - [10773. 제로](https://github.com/beginin15/Algorithm/issues/12)
 - [18258. 큐2](https://github.com/beginin15/Algorithm/issues/15)
 - [2164. 카드2](https://github.com/beginin15/Algorithm/issues/16)
-- [6198. 옥상 정원 꾸미기](https://github.com/beginin15/Algorithm/issues/17)
+- [10866. 덱](https://github.com/beginin15/Algorithm/issues/20)
+
 
 </details>
 <details>
@@ -40,6 +41,9 @@
 - [1406. 에디터](https://github.com/beginin15/Algorithm/issues/7)
 - [1874. 스택 수열](https://github.com/beginin15/Algorithm/issues/13)
 - [2493. 탑](https://github.com/beginin15/Algorithm/issues/18)
-
+- [6198. 옥상 정원 꾸미기](https://github.com/beginin15/Algorithm/issues/17)
+- [2493. 탑](https://github.com/beginin15/Algorithm/issues/18)
+- [1021. 회전하는 큐](https://github.com/beginin15/Algorithm/issues/21)
+- [5430. AC](https://github.com/beginin15/Algorithm/issues/22)
 
 </details>
