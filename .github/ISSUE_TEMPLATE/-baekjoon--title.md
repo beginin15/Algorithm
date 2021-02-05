@@ -1,7 +1,7 @@
 ---
 name: "Baekjoon"
 about: 백준 문제
-title: "20.00.00 - [백준] X. 제목"
+title: "21.00.00 - [백준] X. 제목"
 labels: "백준"
 assignees: "beginin15"
 ---
