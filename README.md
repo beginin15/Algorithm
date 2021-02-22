@@ -1,49 +1,10 @@
 # Algorithm
+> 지금까지 풀어본 알고리즘 문제와 풀이는 이슈로 관리합니다.
 
-## Programmers
-<details>
-<summary>Solved</summary>
-
-- [완주하지 못한 선수](https://github.com/beginin15/Algorithm/issues/1)
-- [K번째수](https://github.com/beginin15/Algorithm/issues/2)
-
-</details>
-
-## LeetCode
-
-<details>
-<summary>Solved</summary>
-
-- [7. Reverse Integer](https://github.com/beginin15/Algorithm/issues/3)
-- [202. Happy Number](https://github.com/beginin15/Algorithm/issues/4)
-- [136. Single Number](https://github.com/beginin15/Algorithm/issues/5)
-
-</details>
-
-## Baekjoon
-<details>
-<summary>Solved</summary>
-
-- [1991. Binary Tree](https://github.com/beginin15/Algorithm/issues/6)
-- [1158. 요세푸스](https://github.com/beginin15/Algorithm/issues/9)
-- [5397. 키로거](https://github.com/beginin15/Algorithm/issues/10)
-- [10828. 스택](https://github.com/beginin15/Algorithm/issues/11)
-- [10773. 제로](https://github.com/beginin15/Algorithm/issues/12)
-- [18258. 큐2](https://github.com/beginin15/Algorithm/issues/15)
-- [2164. 카드2](https://github.com/beginin15/Algorithm/issues/16)
-- [10866. 덱](https://github.com/beginin15/Algorithm/issues/20)
-
-
-</details>
-<details>
-<summary>Tried</summary>
-
-- [1406. 에디터](https://github.com/beginin15/Algorithm/issues/7)
-- [1874. 스택 수열](https://github.com/beginin15/Algorithm/issues/13)
-- [2493. 탑](https://github.com/beginin15/Algorithm/issues/18)
-- [6198. 옥상 정원 꾸미기](https://github.com/beginin15/Algorithm/issues/17)
-- [2493. 탑](https://github.com/beginin15/Algorithm/issues/18)
-- [1021. 회전하는 큐](https://github.com/beginin15/Algorithm/issues/21)
-- [5430. AC](https://github.com/beginin15/Algorithm/issues/22)
-
-</details>
+## 라벨
+|이름|의미|
+|---|---|
+|`Bronze`,`Silver`,`Gold`|[백준](https://www.acmicpc.net/) 알고리즘 난이도|
+|`Level 1`, `Level 2`, `Level 3`, `Level 4`, `Level 5`|[프로그래머스](https://programmers.co.kr/learn/challenges?tab=all_challenges) 알고리즘 난이도|
+|`시간 초과`|주어진 시간(대체로 1시간)내에 풀지 못한 문제|
+|`포기`|풀이를 제출하기 전에 다른 풀이를 먼저 참고한 문제|
